@@ -1,0 +1,71 @@
+#bg {
+    width: 1550px;
+    height: 1200px;
+    background-image: url(http://s01.riotpixels.net/data/f3/2d/f32dfeaf-b1ab-4777-a61e-9a6fb232a207.jpg/artwork.heroes-of-might-and-magic-4.600x600.2001-11-26.68.jpg);
+    color: white;
+} 
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.main-menu {
+    font-size: lem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 40px;
+}
+
+.btn:hover {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: blue;
+    border-color: blue;
+}
+
+.text-right {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
+
+.avatar {
+    height: 350px;
+    text-align: left;
+    margin: 3rem 0;
+}
+
+.avatar img {
+    height: 100%;
+}
